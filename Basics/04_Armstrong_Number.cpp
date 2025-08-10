@@ -1,4 +1,9 @@
-//Armstrong Number Program using Cpp
+/*
+Day-4 of DSA Journey (10-08-2025)
+Program: Armstrong Number
+Language: Cpp
+Author: Yash
+*/
 #include <bits/stdc++.h>
 using namespace std;
 int digitCount(int n){
