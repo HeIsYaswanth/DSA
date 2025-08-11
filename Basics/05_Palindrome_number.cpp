@@ -20,7 +20,8 @@ int main(){
     cout<<"Enter an integer: ";
     cin>>num;
     if(num<0){
-        num = abs(num);
+        num = abs(num); 
+        //negative numbers also converted to postive
     }
     int reversedNumber = reverseNumber(num);
     if(reversedNumber == num) {
