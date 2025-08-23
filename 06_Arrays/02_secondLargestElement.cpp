@@ -1,6 +1,6 @@
 /*
 Day-15 of DSA (22-08-2025)
-Author: Yash
+Author: Yaswanth Reddy Salla
 Program: Second Largest Element
 */
 #include<bits/stdc++.h>

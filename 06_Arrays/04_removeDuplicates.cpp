@@ -1,6 +1,6 @@
 /*
 Day-15 of DSA (22-08-2025)
-Author: Yash
+Author: Yaswanth Reddy Salla
 Program: Remove Duplicates
 */
 #include<bits/stdc++.h>
@@ -9,13 +9,12 @@ int removeDuplicates(int arr[],int n){
     int i=0;
     for(int j=0;j<n;j++){
         if(arr[i]!=arr[j]){
+            //next non repeating elelemt
             i++;
             arr[i]=arr[j];
         }
     }
-    
     return i+1;
-    
 }
                     
 int main(){
@@ -27,9 +26,10 @@ int main(){
     }
     cout<<endl;
     int newLength = removeDuplicates(arr,n);
+    //function returns new length of the array after removing duplicates
     cout<<"After removing duplicates: ";
     for(int i=0;i<newLength;i++){
         cout<<arr[i]<<" ";
     }
-            
+           
 }
